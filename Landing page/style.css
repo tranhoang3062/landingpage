@@ -173,15 +173,26 @@
     border: 2px solid #0C3050;
     box-sizing: border-box;
     border-radius: 50px;
-    font-family: SVN-Gilroy;
+}
+
+.search_bar p {
+    position: absolute;
     font-size: 16px;
-    text-align: center;
+    line-height: 24px;
+    font-family: SVN-Gilroy;
+    left: 25px;
+    top: -7px;
+    color: #0C3050;
+    font-style: normal;
+    font-weight: bold;
 }
 
 .search_bar img {
     position: relative;
-    width: 17px;
-    height: 17px;
+    width: 23px;
+    height: 23px;
+    right: -60px;
+    top: 2px;
 }
 
 .cloud1 {
@@ -402,8 +413,22 @@
 
 .search_barIT img {
     position: relative;
-    width: 17px;
-    height: 17px;
+    width: 23px;
+    height: 23px;
+    right: -60px;
+    top: 2px;
+}
+
+.search_barIT p {
+    position: absolute;
+    font-size: 16px;
+    line-height: 24px;
+    font-family: SVN-Gilroy;
+    left: 25px;
+    top: -7px;
+    color: #0C3050;
+    font-style: normal;
+    font-weight: bold;
 }
 
 .search_barIT button {
@@ -665,23 +690,27 @@
     top: 786px;
     background: #CF585E;
     border-radius: 50px;
-    text-decoration: none;
-    display: inline-block; 
-    line-height: 24px;
     box-sizing: border-box;
-    font-family: SVN-Gilroy;
+}
+
+.gbar p {
+    position: absolute;
     font-size: 16px;
-    text-align: center;
+    line-height: 24px;
+    font-family: SVN-Gilroy;
+    left: 40px;
+    top: -4px;
     color: #FFFFFF;
     font-style: normal;
     font-weight: bold;
 }
 
 .gbar img {
-    position: absolute;
-    width: 17px;
-    height: 17px;
-    right: 35px;
+    position: relative;
+    width: 19px;
+    height: 19px;
+    right: -68px;
+    top: 3.5px;
 }
 
 .content3 {
@@ -728,7 +757,7 @@
     position: absolute;
     width: 608.32px;
     height: 295.49px;
-    left: -56.84px;
+    left: 0px;
     top: 15.02px;
 }
 
@@ -736,7 +765,7 @@
     position: absolute;
     width: 495px;
     height: 475px;
-    left: 38.17px;
+    left: 0px;
     top: 489px;
 }
 
@@ -752,7 +781,7 @@
     position: absolute;
     width: 535px;
     height: 363px;
-    left: 1410.8px;
+    right: 20px;
     top: 559px;
 }
 
